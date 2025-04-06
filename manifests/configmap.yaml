@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: productionaks-config
+  namespace: sample-app-namespace-1743941662933
+  labels:
+    app.kubernetes.io/name: productionaks
+    kubernetes.azure.com/generator: devhub
+data:
